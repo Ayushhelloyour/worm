@@ -5,7 +5,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN environment variable is required")
 
-ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "chat_id"))
+ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "1424578427"))
 
 # Channels to join
 REQUIRED_CHANNELS = [
@@ -13,10 +13,10 @@ REQUIRED_CHANNELS = [
 ]
 
 # Developer info
-DEVELOPER_USERNAME = "@GOAT_NG"
+DEVELOPER_USERNAME = "@notemebro"
 
 # Welcome message
-WELCOME_MESSAGE = "🎉 *Welcome to NGYT777GG WORM AI* 🎉\n\nYour advanced AI assistant is ready to help you\\!"
+WELCOME_MESSAGE = "🎉 *Welcome to Notemebro WORM AI* 🎉\n\nYour advanced AI assistant is ready to help you\\!"
 
 # Venice AI Configuration
 VENICE_AI_HEADERS = {
